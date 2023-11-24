@@ -45,6 +45,11 @@
 *.idb
 *.pdb
 
+# Zig Stuff 
+zig-cache/
+
+# photo/doc stuff 
+*.png
 # Kernel Module Compile Results
 *.mod*
 *.cmd

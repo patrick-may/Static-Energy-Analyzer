@@ -1,4 +1,4 @@
-	.arch armv8-a
+	.arch	armv8-a
 	.file	"nullc.c"
 	.text
 	.align	2
@@ -7,7 +7,7 @@
 main:
 .LFB0:
 	.cfi_startproc
-	mov	w0, 0
+	mov	w0, [0, 10]
 	ret
 	.cfi_endproc
 .LFE0:
