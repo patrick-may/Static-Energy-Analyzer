@@ -8,19 +8,19 @@ AC: Analyzer coding
 
 ## Week 0 1/15:
 
-- Attend IS Meeting
-- R: Introduction (Ch 1)
-- W: Finish Cost Relations Section (Ch 3.2)
-- TB: Investigate Hardware Benchmarking Process
-- AC: Finish commandline argument parser, look to CFG transformer step
+- [x] Attend IS Meeting
+- [x] R: Introduction (Ch 1)
+- [ ] W: Finish Cost Relations Section (Ch 3.2)
+- [x] TB: Investigate Hardware Benchmarking Process
+- [ ] AC: Finish commandline argument parser, look to CFG transformer step
 
 ## Week 1 1/22:
 
-- IS Meeting 
-- R: 2.1 (Compilers), 2.2 (Assembly Language)
-- W: Dregs of 3.2, 3.5 (Dynamic Cost Analysis)
-- TB: Perform (at least) one single instruction test
-- AC: Work on Parsed -> Control Flow Graph Transform
+- [ ] IS Meeting 
+- [ ] R: 2.1 (Compilers), 2.2 (Assembly Language)
+- [ ] W: Dregs of 3.2, 3.5 (Dynamic Cost Analysis)
+- [ ] TB: Perform (at least) one single instruction test
+- [ ] AC: Work on Parsed -> Control Flow Graph Transform
 
 ## Week 2 1/29:
 
