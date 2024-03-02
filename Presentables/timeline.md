@@ -10,63 +10,63 @@ AC: Analyzer coding
 
 - [x] Attend IS Meeting
 - [x] R: Introduction (Ch 1)
-- [ ] W: Finish Cost Relations Section (Ch 3.2)
+- [x] W: Finish Cost Relations Section (Ch 3.2)
 - [x] TB: Investigate Hardware Benchmarking Process
 - [ ] AC: Finish commandline argument parser, look to CFG transformer step
 
 ## Week 1 1/22:
 
-- [ ] IS Meeting 
-- [ ] R: 2.1 (Compilers), 2.2 (Assembly Language)
-- [ ] W: Dregs of 3.2, 3.5 (Dynamic Cost Analysis)
+- [x] IS Meeting 
+- [x] R: 2.1 (Compilers), 2.2 (Assembly Language)
+- [x] W: Dregs of 3.2, 3.5 (Dynamic Cost Analysis)
 - [ ] TB: Perform (at least) one single instruction test
 - [ ] AC: Work on Parsed -> Control Flow Graph Transform
 
 ## Week 2 1/29:
 
-- IS Meeting 
-- R: 2.3 (Modern CPUs), 2.4 (Energy Analysis), 3.1 (Recurrence Relations)
-- TB: Benchmark most 25-50 most common ASM instructions
-- W: 5.1 (Hardware Choice), 5.2 (Test Harness)
-- AC: Finalize/Abort CFG Transform, work towards CFG -> cost system transform
+- [x] IS Meeting 
+- [x] R: 2.3 (Modern CPUs), 2.4 (Energy Analysis), 3.1 (Recurrence Relations)
+- [ ] TB: Benchmark most 25-50 most common ASM instructions
+- [ ] W: 5.1 (Hardware Choice), 5.2 (Test Harness)
+- [ ] AC: Finalize/Abort CFG Transform, work towards CFG -> cost system transform
 
 ## Week 3 2/5:
 
-- IS Meeting 
-- R: Rest of chapter 3
-- W: 4.1, 4.2 (section names TBD)
-- AC: Finalize CFG -> cost system transform
-- TB: Finish primary benchmarking 
+- [x] IS Meeting 
+- [x] R: Rest of chapter 3
+- [ ] W: 4.1, 4.2 (section names TBD)
+- [ ] AC: Finalize CFG -> cost system transform
+- [ ] TB: Finish primary benchmarking 
 
 ## Week 4 2/12:
 
-- IS Meeting 
-- SHARE chapter 5 for revisions by End-Of-Week
-- W: 5.3, 5.4 (Results and interpretation of testbench results)
-- AC: Link CFG to PUBS solver, alternatively, connect with website, alternatively dynamic coefficient selection
-- TB: Test programs on SEA and manually, if possible
+- [x] IS Meeting 
+- [ ] SHARE chapter 5 for revisions by End-Of-Week
+- [ ] W: 5.3, 5.4 (Results and interpretation of testbench results)
+- [ ] AC: Link CFG to PUBS solver, alternatively, connect with website, alternatively dynamic coefficient selection
+- [ ] TB: Test programs on SEA and manually, if possible
 
 ## Week 5 2/19:
 
-- IS Meeting 
-- SHARE chapter 4 for revisions by End-Of-Week
-- R: Chapter 5
-- W: 4.3, 4.4? (methodology of creating the SEA)
-- TB: play around with SEA more, or finish creating if issues arose
-- AC: ^
+- [x] IS Meeting 
+- [ ] SHARE chapter 4 for revisions by End-Of-Week
+- [ ] R: Chapter 5
+- [ ] W: 4.3, 4.4? (methodology of creating the SEA)
+- [ ] TB: play around with SEA more, or finish creating if issues arose
+- [ ] AC: ^
 
 ## Week 6 2/26:
 
-- IS Meeting 
-- R: Chapter 4 
-- W: 6.1 (SEA Accuracy), 6.2 (Challenges/Threats to Validity), 6.3 (Language Comparisons)
-- TB/AC: Play with SEA, perform doing simple language comparisons (if possible, otherwise drop sect 6.3)
+- [ ] IS Meeting 
+- [ ] R: Chapter 4 
+- [ ] W: 6.1 (SEA Accuracy), 6.2 (Challenges/Threats to Validity), 6.3 (Language Comparisons)
+- [ ] TB/AC: Play with SEA, perform doing simple language comparisons (if possible, otherwise drop sect 6.3)
 
 ## Week 7 3/4:
 
-- **SUBMIT complete draft (~70 pages of written content) before break**
-- W: 7 (Conclusion), any other written dregs (Appendix, Acknowledgements, etc. etc.)
-- TB/AC: More language comparisons for novelty's sake, or other QoL features
+- [ ] **SUBMIT complete draft (~70 pages of written content) before break**
+- [ ] W: 7 (Conclusion), any other written dregs (Appendix, Acknowledgements, etc. etc.)
+- [ ] TB/AC: More language comparisons for novelty's sake, or other QoL features
 
 ## Spring Break 3/9 - 3/24:
 
