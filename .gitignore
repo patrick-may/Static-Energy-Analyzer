@@ -1,6 +1,7 @@
-# Local Stuff
-*/prior.py
-
+# executable extension hack
+*
+!*.*
+!*./
 # Prerequisites
 *.d
 

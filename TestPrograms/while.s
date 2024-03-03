@@ -1,30 +1,25 @@
 	.arch armv8-a
 	.file	"while.c"
+// GNU C17 (Debian 12.2.0-14) version 12.2.0 (aarch64-linux-gnu)
+//	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+// warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+// GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+// options passed: -mlittle-endian -mabi=lp64 -O2 -fasynchronous-unwind-tables
 	.text
+	.section	.text.startup,"ax",@progbits
 	.align	2
+	.p2align 4,,11
 	.global	main
 	.type	main, %function
 main:
-.LFB0:
+.LFB11:
 	.cfi_startproc
-	sub	sp, sp, #16
-	.cfi_def_cfa_offset 16
-	str	wzr, [sp, 12]
-	b	.L2
-.L3:
-	ldr	w0, [sp, 12]
-	add	w0, w0, 1
-	str	w0, [sp, 12]
-.L2:
-	ldr	w0, [sp, 12]
-	cmp	w0, 99
-	ble	.L3
-	mov	w0, 0
-	add	sp, sp, 16
-	.cfi_def_cfa_offset 0
-	ret
+// while.c:9: }
+	mov	w0, 0	//,
+	ret	
 	.cfi_endproc
-.LFE0:
+.LFE11:
 	.size	main, .-main
-	.ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0"
+	.ident	"GCC: (Debian 12.2.0-14) 12.2.0"
 	.section	.note.GNU-stack,"",@progbits
