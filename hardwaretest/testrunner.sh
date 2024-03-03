@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e # exit on first error
 # hardcoding paths teehee
 proc_frequency="/sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq"
 
@@ -15,16 +15,20 @@ out_file="${src_file//.s/}"
 gcc -o "$out_file" "$src_file"
 
 for ((i=6; i<=18; i+=6)); do
+  # set proc cycle limits
   set_freq=$(echo "scale=1; $i/10" | bc)
   sudo cpupower frequency-set -u "${set_freq}GHz" -d "${set_freq}GHz" 
+  # report frequency
   echo "Processor frequency before running program (KHz):"
   sudo cat "$proc_frequency"
 
-  # spawn and sleep for 1 minute with offset
+  # spawn
   ./"$out_file" &
   pid=$!
-  sleep 70
-  kill $pid
+  sleep 10 # accouting for OS overhead
+  echo "Take reading"
+  sleep 5 # slight delay
+  kill $pid # done
 
   echo "Processor frequency after two minutes of running (KHz):"
   sudo cat "$proc_frequency"

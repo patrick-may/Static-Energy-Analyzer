@@ -1,7 +1,6 @@
 import argparse
 
 def generateasm(instr: str, repct: int, outfile: str):
-    instr = "add\tx1, x2, x3"
     repct = 2_000
     outfile = "tests/" + outfile
 
@@ -17,9 +16,6 @@ def generateasm(instr: str, repct: int, outfile: str):
     main:
     .LOOP_START:
     \t.cfi_startproc
-    \tmov\tx1, #1 
-    \tmov\tx2, #2
-    \tmov\tx3, #3
     {testasm}
     \tb.al\t.LOOP_START
     \t.cfi_endproc
