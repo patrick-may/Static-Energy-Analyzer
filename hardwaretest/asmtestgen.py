@@ -1,7 +1,6 @@
 import argparse
 
 def generateasm(instr: str, repct: int, outfile: str):
-    repct = 2_000
     outfile = "tests/" + outfile
 
     testasm = ("\t" + instr + "\n") * repct
